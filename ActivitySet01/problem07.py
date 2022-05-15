@@ -1,5 +1,4 @@
 text= "X-DSPAM-Confidence:    0.8475"
-lent=len(text)
-a=text.find(":")
-text=text[a+1:lent]
+a=text.find("0")
+text=text[a:]
 print(float(text))
